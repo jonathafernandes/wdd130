@@ -1,3 +1,7 @@
+:root {
+    --centraliza-texto: center;
+}
+
 main {
     max-width: 1020px;
 }
@@ -37,7 +41,7 @@ aside {
     border-radius: 18px;
     color: black;
     background-color: antiquewhite;
-    text-align: center;
+    text-align: var(--centraliza-texto);
 }
 
 aside img {
@@ -48,5 +52,5 @@ aside img {
 footer {
     margin-top: 1rem;
     border-top: 1px solid rgb(150, 145, 145);
-    text-align: center;
+    text-align: var(--centraliza-texto);
 }
