@@ -1,12 +1,8 @@
 :root {
     --cor-primaria: #055a05;
     /* verde-floresta */
-    /* --cor-secundaria: #f4a261; Será usada depois */
-    /* bege médio */
     --cor-destaque1: #264653;
     /* azul-escuro acinzentado */
-    /* --cor-destaque2: #e9c46a; Será usada depois */
-    /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
