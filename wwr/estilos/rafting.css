@@ -86,6 +86,8 @@ h1 {
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
+
+    position: absolute;
 }
 
 .hero article img {
@@ -111,17 +113,17 @@ h1 {
     width: 10rem;
 }
 
-.socialmedia {
+footer {
     display: flex;
     justify-content: space-between;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 32px;
 }
