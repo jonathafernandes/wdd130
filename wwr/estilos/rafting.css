@@ -21,7 +21,8 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 1020px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -38,6 +39,19 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
 }
 
 .socialmedia a,
@@ -67,10 +81,47 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .hero article img {
-    float: right;
     width: 125px;
+}
+
+.historia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens h2 {
+    margin-bottom: 20px;
+}
+
+.imagens div {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.imagens div img {
+    width: 10rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.redes-sociais img {
+    width: 32px;
 }
