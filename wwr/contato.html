@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonatha Fernandes">
+    <meta name="description" content="Página de contato oficial da empresa de Rafting Total">
+    <title>Contato Rafting Total</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="imagens/logo.jpg" alt="Logo da Empresa">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="informacoes-contato">
+            <h1>Companhia de Rafting em Corredeiras</h1>
+
+            <address>
+                <p>123 Rua Principal do Rio</p>
+                <p>Foz do Iguaçu, Paraná</p>
+                <p>+55 45 99999-9999</p>
+                <p>info@corredeiras.com</p>
+            </address>
+        </section>
+
+        <section class="contato-grid">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps?q=Foz%20do%20Iguaçu,%20PR&output=embed"
+                  title="Localização da Rafting Total" loading="lazy" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="formulario-contato">
+                <form>
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite aqui" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite aqui"
+                          required>
+                    </div>
+
+                    <div class="campo-radio">
+                        <p>Propósito da Mensagem</p>
+
+                        <div class="opcoes-radio">
+                            <label>
+                                <input type="radio" name="assunto" value="duvida" checked>
+                                Dúvida Geral
+                            </label>
+
+                            <label>
+                                <input type="radio" name="assunto" value="reserva">
+                                Pergunta sobre Reserva
+                            </label>
+
+                            <label>
+                                <input type="radio" name="assunto" value="sugestao">
+                                Sugestão
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+
+                        <textarea id="mensagem" name="mensagem" rows="5"
+                          placeholder="Digite aqui"></textarea>
+                    </div>
+
+                    <div class="newsletter">
+                        <label>
+                            <input type="checkbox" name="newsletter">
+                            Por favor, me inscreva na newsletter mensal
+                        </label>
+                    </div>
+
+                    <button type="submit">Entrar em Contato!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="funcionarios">
+
+            <h2>Estamos Aqui para Servi-lo</h2>
+
+            <div class="funcionarios-grid">
+                <figure>
+                    <img src="imagens/funcionario1.jpg" alt="Funcionário 1">;
+                    <figcaption>Perfil do Funcionário</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/funcionario2.jpg" alt="Funcionário 2">;
+                    <figcaption>Perfil do Funcionário</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/funcionario3.jpg" alt="Funcionário 3">;
+                    <figcaption>Perfil do Funcionário</figcaption>
+                </figure>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafting Total - Jonatha Fernandes</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.png" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.png" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.png" alt="Ícone do Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
