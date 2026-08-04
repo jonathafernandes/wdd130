@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Formulário HTML - Enquete do Usuário</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Enquete do Usuário</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Informações de Contato</legend>
+
+                <label for="nome-completo">Nome Completo:</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+                <br><br>
+
+                <label for="email-do-usuario">Email:</label>
+                <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Perguntas</legend>
+
+                <label for="navegador">Qual é o seu navegador de internet favorito?</label>
+                <select id="navegador" name="navegador">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="pet">Você tem um animal de estimação?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <br><br>
+
+                <label for="feedback">Liste os lugares onde você morou:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                  placeholder="Stillwater Flórida,&#10;Amsterdam Holanda,&#10;Tibuktu Mali"></textarea>
+            </fieldset>
+            <br>
+
+            <button type="submit">Enviar Enquete</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©2025 | Formulário HTML - Atividade de Enquete do Usuário | Xavier Rodriquez</p>
+    </footer>
+</body>
+
+</html>
