@@ -54,7 +54,7 @@ nav ul {
     flex-wrap: wrap;
 }
 
-.socialmedia a,
+.redes-sociais a,
 footer a {
     text-decoration: none;
 }
@@ -118,13 +118,13 @@ footer {
     justify-content: space-between;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 32px;
 }
 
