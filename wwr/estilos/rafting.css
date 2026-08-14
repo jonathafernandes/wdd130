@@ -103,7 +103,14 @@ footer a {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 18px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    z-index: 1;
 }
 
 .hero article img {
@@ -276,11 +283,16 @@ footer a {
 }
 
 .historia {
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 220px) minmax(0, 1fr);
     align-items: start;
-    gap: 24px;
-    padding: 32px 48px;
+    gap: 32px;
+    padding: 240px 48px 32px;
+}
+
+.historia p:last-of-type {
+    grid-column: 3;
 }
 
 .historia article h2 {
@@ -309,13 +321,15 @@ footer {
     border-top: 1px solid #eee;
 }
 
-.redes-sociais {
+.redes-sociais,
+.socialmedia {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.redes-sociais img {
+.redes-sociais img,
+.socialmedia img {
     width: 32px;
 }
 
@@ -468,6 +482,12 @@ footer {
         justify-items: center;
         text-align: center;
         padding: 24px;
+    }
+
+    .hero article {
+        position: static;
+        transform: none;
+        margin: 0 auto 24px;
     }
 
     .passeio-item:nth-child(even) .passeio-img {
