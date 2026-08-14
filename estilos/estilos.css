@@ -20,6 +20,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px;
 }
 
 nav a {
@@ -35,9 +36,13 @@ h1 {
 .grid {
     display: grid;
     align-items: start;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 1fr 20rem;
     gap: 1rem;
     margin-top: 1rem;
+}
+
+main {
+    max-width: 1020px;
 }
 
 main img {
@@ -60,10 +65,14 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin: 1em;
+    background-color: #eee;
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -77,15 +86,6 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
-}
-
-/* Seletores de Classe */
-
-.caixa {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    margin: 1em;
-    background-color: #eee;
 }
 
 .indentacao {
